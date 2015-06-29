@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51262B6E1B3D332E00A91C98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48CC8A11B3B35CB00D140F4 /* ViewController.swift */; };
+		51351FED1B3C799200E39737 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51351FEC1B3C799200E39737 /* Weather.swift */; };
+		51351FEE1B3C799200E39737 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51351FEC1B3C799200E39737 /* Weather.swift */; };
+		51351FF31B3C87E000E39737 /* WeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51351FF21B3C87E000E39737 /* WeatherTests.swift */; };
+		51351FF81B3C891F00E39737 /* sampleData_noNotifications.txt in Resources */ = {isa = PBXBuildFile; fileRef = 51351FF71B3C891F00E39737 /* sampleData_noNotifications.txt */; };
+		51351FF91B3C891F00E39737 /* sampleData_noNotifications.txt in Resources */ = {isa = PBXBuildFile; fileRef = 51351FF71B3C891F00E39737 /* sampleData_noNotifications.txt */; };
+		51F532991B3C9B8C00A11F32 /* missingData.txt in Resources */ = {isa = PBXBuildFile; fileRef = 51F532981B3C9B8C00A11F32 /* missingData.txt */; };
+		51F5329B1B3CAD4E00A11F32 /* TextFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F5329A1B3CAD4E00A11F32 /* TextFormatter.swift */; };
+		51F5329C1B3CAD4E00A11F32 /* TextFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F5329A1B3CAD4E00A11F32 /* TextFormatter.swift */; };
+		51F5329E1B3CCCC500A11F32 /* sampleData_rain.txt in Resources */ = {isa = PBXBuildFile; fileRef = 51F5329D1B3CCCC500A11F32 /* sampleData_rain.txt */; };
+		51F5329F1B3CCCC500A11F32 /* sampleData_rain.txt in Resources */ = {isa = PBXBuildFile; fileRef = 51F5329D1B3CCCC500A11F32 /* sampleData_rain.txt */; };
+		51F532A11B3CD84300A11F32 /* sampleData_sunny.txt in Resources */ = {isa = PBXBuildFile; fileRef = 51F532A01B3CD84300A11F32 /* sampleData_sunny.txt */; };
+		51F532A21B3CD84300A11F32 /* sampleData_sunny.txt in Resources */ = {isa = PBXBuildFile; fileRef = 51F532A01B3CD84300A11F32 /* sampleData_sunny.txt */; };
+		51F532A41B3CD85D00A11F32 /* sampleData_cold.txt in Resources */ = {isa = PBXBuildFile; fileRef = 51F532A31B3CD85D00A11F32 /* sampleData_cold.txt */; };
+		51F532A51B3CD85D00A11F32 /* sampleData_cold.txt in Resources */ = {isa = PBXBuildFile; fileRef = 51F532A31B3CD85D00A11F32 /* sampleData_cold.txt */; };
+		51F532A81B3CDA0500A11F32 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F532A71B3CDA0500A11F32 /* ViewControllerTests.swift */; };
+		51F532AA1B3CDC0200A11F32 /* sunny.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51F532A91B3CDC0200A11F32 /* sunny.jpg */; };
+		51F532AB1B3CDC0200A11F32 /* sunny.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51F532A91B3CDC0200A11F32 /* sunny.jpg */; };
+		51F532AD1B3CDC0800A11F32 /* rain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51F532AC1B3CDC0800A11F32 /* rain.jpg */; };
+		51F532AE1B3CDC0800A11F32 /* rain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51F532AC1B3CDC0800A11F32 /* rain.jpg */; };
+		6A8674F77AE32D519D6DC864 /* Pods_PigLatinTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D59964A9A21C4257A8A88B /* Pods_PigLatinTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C48CC8A01B3B35CB00D140F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48CC89F1B3B35CB00D140F4 /* AppDelegate.swift */; };
+		C48CC8A21B3B35CB00D140F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48CC8A11B3B35CB00D140F4 /* ViewController.swift */; };
+		C48CC8A51B3B35CB00D140F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C48CC8A31B3B35CB00D140F4 /* Main.storyboard */; };
+		C48CC8A71B3B35CB00D140F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C48CC8A61B3B35CB00D140F4 /* Images.xcassets */; };
+		C48CC8AA1B3B35CB00D140F4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C48CC8A81B3B35CB00D140F4 /* LaunchScreen.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C48CC8B01B3B35CB00D140F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C48CC8921B3B35CB00D140F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C48CC8991B3B35CB00D140F4;
+			remoteInfo = PigLatin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F2CB09D866C57C98D1C3B1F /* Pods-PigLatinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PigLatinTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PigLatinTests/Pods-PigLatinTests.release.xcconfig"; sourceTree = "<group>"; };
+		51351FEC1B3C799200E39737 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		51351FF21B3C87E000E39737 /* WeatherTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherTests.swift; sourceTree = "<group>"; };
+		51351FF71B3C891F00E39737 /* sampleData_noNotifications.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = sampleData_noNotifications.txt; path = PigLatinTests/sampleData_noNotifications.txt; sourceTree = SOURCE_ROOT; };
+		51F532981B3C9B8C00A11F32 /* missingData.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = missingData.txt; sourceTree = "<group>"; };
+		51F5329A1B3CAD4E00A11F32 /* TextFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFormatter.swift; sourceTree = "<group>"; };
+		51F5329D1B3CCCC500A11F32 /* sampleData_rain.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sampleData_rain.txt; sourceTree = "<group>"; };
+		51F532A01B3CD84300A11F32 /* sampleData_sunny.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sampleData_sunny.txt; sourceTree = "<group>"; };
+		51F532A31B3CD85D00A11F32 /* sampleData_cold.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sampleData_cold.txt; sourceTree = "<group>"; };
+		51F532A71B3CDA0500A11F32 /* ViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
+		51F532A91B3CDC0200A11F32 /* sunny.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sunny.jpg; sourceTree = "<group>"; };
+		51F532AC1B3CDC0800A11F32 /* rain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rain.jpg; sourceTree = "<group>"; };
+		94D59964A9A21C4257A8A88B /* Pods_PigLatinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PigLatinTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C48CC89A1B3B35CB00D140F4 /* PigLatin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PigLatin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C48CC89E1B3B35CB00D140F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C48CC89F1B3B35CB00D140F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C48CC8A11B3B35CB00D140F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C48CC8A41B3B35CB00D140F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C48CC8A61B3B35CB00D140F4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C48CC8A91B3B35CB00D140F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C48CC8AF1B3B35CB00D140F4 /* PigLatinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PigLatinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C48CC8B41B3B35CB00D140F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E18BB5D8F41ACEA71BDF7FA3 /* Pods-PigLatinTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PigLatinTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PigLatinTests/Pods-PigLatinTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C48CC8971B3B35CB00D140F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C48CC8AC1B3B35CB00D140F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A8674F77AE32D519D6DC864 /* Pods_PigLatinTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043A5D94CB77446CA6EE2CB2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E18BB5D8F41ACEA71BDF7FA3 /* Pods-PigLatinTests.debug.xcconfig */,
+				4F2CB09D866C57C98D1C3B1F /* Pods-PigLatinTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		22720D3E72E9ED0ADA33BCB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94D59964A9A21C4257A8A88B /* Pods_PigLatinTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51F532A61B3CD98000A11F32 /* mocData */ = {
+			isa = PBXGroup;
+			children = (
+				51351FF71B3C891F00E39737 /* sampleData_noNotifications.txt */,
+				51F5329D1B3CCCC500A11F32 /* sampleData_rain.txt */,
+				51F532A01B3CD84300A11F32 /* sampleData_sunny.txt */,
+				51F532A31B3CD85D00A11F32 /* sampleData_cold.txt */,
+				51F532981B3C9B8C00A11F32 /* missingData.txt */,
+			);
+			name = mocData;
+			sourceTree = "<group>";
+		};
+		C48CC8911B3B35CB00D140F4 = {
+			isa = PBXGroup;
+			children = (
+				C48CC89C1B3B35CB00D140F4 /* PigLatin */,
+				C48CC8B21B3B35CB00D140F4 /* PigLatinTests */,
+				C48CC89B1B3B35CB00D140F4 /* Products */,
+				043A5D94CB77446CA6EE2CB2 /* Pods */,
+				22720D3E72E9ED0ADA33BCB8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C48CC89B1B3B35CB00D140F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C48CC89A1B3B35CB00D140F4 /* PigLatin.app */,
+				C48CC8AF1B3B35CB00D140F4 /* PigLatinTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C48CC89C1B3B35CB00D140F4 /* PigLatin */ = {
+			isa = PBXGroup;
+			children = (
+				C48CC8A31B3B35CB00D140F4 /* Main.storyboard */,
+				C48CC8A11B3B35CB00D140F4 /* ViewController.swift */,
+				51351FEC1B3C799200E39737 /* Weather.swift */,
+				51F532A61B3CD98000A11F32 /* mocData */,
+				C48CC89D1B3B35CB00D140F4 /* Supporting Files */,
+			);
+			path = PigLatin;
+			sourceTree = "<group>";
+		};
+		C48CC89D1B3B35CB00D140F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51F532A91B3CDC0200A11F32 /* sunny.jpg */,
+				51F532AC1B3CDC0800A11F32 /* rain.jpg */,
+				51F5329A1B3CAD4E00A11F32 /* TextFormatter.swift */,
+				C48CC8A61B3B35CB00D140F4 /* Images.xcassets */,
+				C48CC8A81B3B35CB00D140F4 /* LaunchScreen.xib */,
+				C48CC89F1B3B35CB00D140F4 /* AppDelegate.swift */,
+				C48CC89E1B3B35CB00D140F4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C48CC8B21B3B35CB00D140F4 /* PigLatinTests */ = {
+			isa = PBXGroup;
+			children = (
+				C48CC8B31B3B35CB00D140F4 /* Supporting Files */,
+				51351FF21B3C87E000E39737 /* WeatherTests.swift */,
+				51F532A71B3CDA0500A11F32 /* ViewControllerTests.swift */,
+			);
+			path = PigLatinTests;
+			sourceTree = "<group>";
+		};
+		C48CC8B31B3B35CB00D140F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C48CC8B41B3B35CB00D140F4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C48CC8991B3B35CB00D140F4 /* PigLatin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C48CC8B91B3B35CB00D140F4 /* Build configuration list for PBXNativeTarget "PigLatin" */;
+			buildPhases = (
+				C48CC8961B3B35CB00D140F4 /* Sources */,
+				C48CC8971B3B35CB00D140F4 /* Frameworks */,
+				C48CC8981B3B35CB00D140F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PigLatin;
+			productName = PigLatin;
+			productReference = C48CC89A1B3B35CB00D140F4 /* PigLatin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C48CC8AE1B3B35CB00D140F4 /* PigLatinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C48CC8BC1B3B35CB00D140F4 /* Build configuration list for PBXNativeTarget "PigLatinTests" */;
+			buildPhases = (
+				B9DBD042F0DFA8E5CF19C1EB /* Check Pods Manifest.lock */,
+				C48CC8AB1B3B35CB00D140F4 /* Sources */,
+				C48CC8AC1B3B35CB00D140F4 /* Frameworks */,
+				C48CC8AD1B3B35CB00D140F4 /* Resources */,
+				B2739B28E9A718584E481D27 /* Embed Pods Frameworks */,
+				6CEF715EFC1EEE9249CB5724 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C48CC8B11B3B35CB00D140F4 /* PBXTargetDependency */,
+			);
+			name = PigLatinTests;
+			productName = PigLatinTests;
+			productReference = C48CC8AF1B3B35CB00D140F4 /* PigLatinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C48CC8921B3B35CB00D140F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Monsoon;
+				TargetAttributes = {
+					C48CC8991B3B35CB00D140F4 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					C48CC8AE1B3B35CB00D140F4 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = C48CC8991B3B35CB00D140F4;
+					};
+				};
+			};
+			buildConfigurationList = C48CC8951B3B35CB00D140F4 /* Build configuration list for PBXProject "PigLatin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C48CC8911B3B35CB00D140F4;
+			productRefGroup = C48CC89B1B3B35CB00D140F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C48CC8991B3B35CB00D140F4 /* PigLatin */,
+				C48CC8AE1B3B35CB00D140F4 /* PigLatinTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C48CC8981B3B35CB00D140F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51F532A41B3CD85D00A11F32 /* sampleData_cold.txt in Resources */,
+				51F532AD1B3CDC0800A11F32 /* rain.jpg in Resources */,
+				51F532AA1B3CDC0200A11F32 /* sunny.jpg in Resources */,
+				51351FF81B3C891F00E39737 /* sampleData_noNotifications.txt in Resources */,
+				51F532A11B3CD84300A11F32 /* sampleData_sunny.txt in Resources */,
+				51F532991B3C9B8C00A11F32 /* missingData.txt in Resources */,
+				C48CC8A51B3B35CB00D140F4 /* Main.storyboard in Resources */,
+				C48CC8AA1B3B35CB00D140F4 /* LaunchScreen.xib in Resources */,
+				51F5329E1B3CCCC500A11F32 /* sampleData_rain.txt in Resources */,
+				C48CC8A71B3B35CB00D140F4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C48CC8AD1B3B35CB00D140F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51F532A51B3CD85D00A11F32 /* sampleData_cold.txt in Resources */,
+				51F532AE1B3CDC0800A11F32 /* rain.jpg in Resources */,
+				51F5329F1B3CCCC500A11F32 /* sampleData_rain.txt in Resources */,
+				51F532AB1B3CDC0200A11F32 /* sunny.jpg in Resources */,
+				51F532A21B3CD84300A11F32 /* sampleData_sunny.txt in Resources */,
+				51351FF91B3C891F00E39737 /* sampleData_noNotifications.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6CEF715EFC1EEE9249CB5724 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PigLatinTests/Pods-PigLatinTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2739B28E9A718584E481D27 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PigLatinTests/Pods-PigLatinTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9DBD042F0DFA8E5CF19C1EB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C48CC8961B3B35CB00D140F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48CC8A21B3B35CB00D140F4 /* ViewController.swift in Sources */,
+				51351FED1B3C799200E39737 /* Weather.swift in Sources */,
+				C48CC8A01B3B35CB00D140F4 /* AppDelegate.swift in Sources */,
+				51F5329B1B3CAD4E00A11F32 /* TextFormatter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C48CC8AB1B3B35CB00D140F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51262B6E1B3D332E00A91C98 /* ViewController.swift in Sources */,
+				51F5329C1B3CAD4E00A11F32 /* TextFormatter.swift in Sources */,
+				51351FF31B3C87E000E39737 /* WeatherTests.swift in Sources */,
+				51F532A81B3CDA0500A11F32 /* ViewControllerTests.swift in Sources */,
+				51351FEE1B3C799200E39737 /* Weather.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C48CC8B11B3B35CB00D140F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C48CC8991B3B35CB00D140F4 /* PigLatin */;
+			targetProxy = C48CC8B01B3B35CB00D140F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C48CC8A31B3B35CB00D140F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C48CC8A41B3B35CB00D140F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C48CC8A81B3B35CB00D140F4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C48CC8A91B3B35CB00D140F4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C48CC8B71B3B35CB00D140F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C48CC8B81B3B35CB00D140F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C48CC8BA1B3B35CB00D140F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PigLatin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C48CC8BB1B3B35CB00D140F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PigLatin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C48CC8BD1B3B35CB00D140F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E18BB5D8F41ACEA71BDF7FA3 /* Pods-PigLatinTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PigLatinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PigLatin.app/PigLatin";
+			};
+			name = Debug;
+		};
+		C48CC8BE1B3B35CB00D140F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F2CB09D866C57C98D1C3B1F /* Pods-PigLatinTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PigLatinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PigLatin.app/PigLatin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C48CC8951B3B35CB00D140F4 /* Build configuration list for PBXProject "PigLatin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C48CC8B71B3B35CB00D140F4 /* Debug */,
+				C48CC8B81B3B35CB00D140F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C48CC8B91B3B35CB00D140F4 /* Build configuration list for PBXNativeTarget "PigLatin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C48CC8BA1B3B35CB00D140F4 /* Debug */,
+				C48CC8BB1B3B35CB00D140F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C48CC8BC1B3B35CB00D140F4 /* Build configuration list for PBXNativeTarget "PigLatinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C48CC8BD1B3B35CB00D140F4 /* Debug */,
+				C48CC8BE1B3B35CB00D140F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C48CC8921B3B35CB00D140F4 /* Project object */;
+}
